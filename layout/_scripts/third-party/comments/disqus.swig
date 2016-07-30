@@ -11,7 +11,8 @@
       var dsq = document.createElement('script');
       dsq.type = 'text/javascript';
       dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+//      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = "/vendors/disqus/" + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }
 
