@@ -11,6 +11,9 @@
           <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
         </noscript>
       </div>
+    {% elseif theme.uyan_uid %}
+        <div id="uyan_frame"></div>
     {% endif %}
+
   </div>
 {% endif %}

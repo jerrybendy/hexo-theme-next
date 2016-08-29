@@ -231,6 +231,10 @@ mathjax:
 # Disqus
 #disqus_shortname:
 
+# 友言评论
+#uyan_uid:
+
+
 # Baidu Share
 # Available value:
 #    button | slide
